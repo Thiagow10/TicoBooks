@@ -20,6 +20,18 @@ Tablets: Layouts ajustáveis e fluidos
 
 Desktop: Visual amplo e otimizado para grandes telas
 
+## 🖼️ Pré-visualizações
+
+### 📱 Versão Mobile
+![Mobile Preview](img/Screenshot1.png)
+
+### 📱 Versão Tablet
+![Tablet Preview](img/Screenshot2.png)
+
+### 💻 Versão Desktop
+![Desktop Preview](img/Screenshot3.png)
+
+
 ## 🔥 Extras
 - Projeto leve e simples, focado na prática de boas práticas de responsividade.
 
