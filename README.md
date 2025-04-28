@@ -23,10 +23,10 @@ Desktop: Visual amplo e otimizado para grandes telas
 ## 🖼️ Pré-visualizações
 
 ### 📱 Versão Mobile
-![Mobile Preview](img/Screenshot1.png)
+![Mobile Preview](img/Screenshot2.png)
 
 ### 📱 Versão Tablet
-![Tablet Preview](img/Screenshot2.png)
+![Tablet Preview](img/Screenshot1.png)
 
 ### 💻 Versão Desktop
 ![Desktop Preview](img/Screenshot3.png)
