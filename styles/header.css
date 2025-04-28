@@ -1,0 +1,174 @@
+/*Menu Estilo Hamburguer*/
+.cabecalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.container__botao:checked~.container__rotulo > .cabecalho__menu-hamburguer {
+    background-image: url(../img/Menu\ Aberto.svg) ;
+}
+
+.container__botao:checked ~ .container__rotulo {
+    background: var(--degrade);
+}
+
+.cabecalho {
+    background-color: var(--cor-de-fundo-secundaria);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+
+/*Class container__botao seria a tag Input, que colocando o comando "checked", ao clicar, a lista sera exibida com o display: block*/
+
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__titulo, .lista-menu__item {
+    padding: 1em;
+    background-color: var(--cinza);
+}
+
+.lista-menu__titulo {
+    color: var(--cor-subtitulo);
+    font-weight: 700;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: var(--degrade);
+    text-transform: uppercase;
+}
+
+.container__botao {
+    display: none;
+}
+
+.container__titulo, .container__titulo--negrito {
+    display: none;
+}
+
+.opcoes {
+    display: none;
+}
+
+.container__texto {
+    display: none;
+}
+
+
+/*Media Queries*/
+@media screen and (min-width: 1024px) {
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-secundaria);
+        font-size: 30px;
+        display: inline-block;
+    }
+
+    .container__titulo {
+        font-weight: 400;
+    }
+
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+
+    .opcoes {
+        display: flex;
+        list-style: none;
+        font-size: 16px;
+        text-transform: uppercase;
+        justify-content: center;
+        align-items: center;
+        gap: 1.3em;
+    }
+
+    .container__imagem--transparente {
+        display: none;
+    }
+
+    .cabecalho__menu-hamburguer {
+        display: none;
+    }
+    .container__imagem {
+        padding-left: 2em;
+    }
+    .opcoes__botao:checked~.lista-menu {
+        display: block;
+        list-style: none;
+        width: auto;
+    }
+
+    .lista-menu {
+        position: absolute;
+        right: 52%;
+    }
+
+    .opcoes__botao {
+        display: none;
+    }
+    .opcoes__botao:checked~.opcoes__rotulo > .opcoes__item {
+        background: var(--degrade);
+        color: var(--branco);
+    }
+
+    .opcoes__item {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover {
+        background: var(--degrade);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        color: var(--azul);
+        font-size: 20px;
+    }
+    .cabecalho {
+        padding: 0 2em;
+    }
+
+    .opcoes {
+        margin: 0 auto 0 4em
+    }
+
+    .lista-menu {
+        margin-right: 22.5vw;
+    }
+
+    .container__texto {
+        display: block;
+    }
+}
+    
