@@ -11,6 +11,7 @@ O objetivo principal do TicoBooks foi criar uma interface limpa, amigável e tot
 
 - JavaScript (mínimo): Pequenas interações para aprimorar a experiência do usuário
 
+
 ## 📱 Responsividade
 O design do TicoBooks foi pensado para se adaptar automaticamente:
 
@@ -19,6 +20,17 @@ Mobile-first: Priorizando usuários de smartphones
 Tablets: Layouts ajustáveis e fluidos
 
 Desktop: Visual amplo e otimizado para grandes telas
+
+
+## 📄 Como usar
+Clone o repositório:
+
+1- Clone o repositório: git clone https://github.com/seu-usuario/ticobooks.git
+
+2- Acesse a pasta do projeto: cd ticobooks
+
+3- Abra o arquivo index.html no seu navegador favorito.
+
 
 ## 🖼️ Pré-visualizações
 
